@@ -20,6 +20,12 @@ This is primarily a frontend UI project that demonstrates my ability to:
 - Product cards with images, prices, and ratings
 - Basic "Add to Cart" functionality with notifications
 
+## 🚀 Live Demo
+
+[View Live Demo](https://amazon-clone-product-list-page.vercel.app/)
+
+The application is deployed on Vercel and automatically updates with each push to the main branch.
+
 ## Technologies Used
 
 - HTML5
