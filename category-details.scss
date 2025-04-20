@@ -1,0 +1,22 @@
+@import 'variables'; // Import variables
+
+// Category Details Styles
+.category-details {
+    padding: 20px;
+    border-right: 1px solid $border-color;
+
+    h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        li {
+            padding: 5px 0 0px 10px;
+            cursor: pointer;
+            &:hover {
+                background-color: $dropdown-hover-background;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.header {
+  background-color: black;
+  padding: 5px 0;
+  color: white;
+}
+.header .logo {
+  height: 55px;
+}
+.header .search-input {
+  width: 600px;
+}
+.header .search-button {
+  background-color: #febd69;
+  border-color: #febd69;
+  color: black;
+  padding: 0.375rem 0.75rem;
+}
+.header .search-button:hover {
+  background-color: #f3a847;
+  border-color: #f3a847;
+}
+.header .navLocation {
+  color: white;
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+.header .navLocation i {
+  font-size: 1.2rem;
+}
+.header .navRightLang,
+.header .navRightAccnLists,
+.header .navReturnOrder,
+.header .navCart {
+  color: white;
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+.header .navRightLang img,
+.header .navRightAccnLists img,
+.header .navReturnOrder img,
+.header .navCart img {
+  margin-right: 5px;
+}
+.header .navRightLang i,
+.header .navRightAccnLists i,
+.header .navReturnOrder i,
+.header .navCart i {
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=header.css.map */

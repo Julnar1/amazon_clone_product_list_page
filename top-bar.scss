@@ -1,0 +1,56 @@
+@import 'variables'; // Import variables
+
+// Top Bar Styles
+.top-bar {
+    background-color: $top-bar-background;
+    color: $top-bar-text;
+    padding: 8px 0;
+
+    .top-bar-link {
+        color: $top-bar-text;
+        text-decoration: none;
+        margin-right: 15px;
+        font-size: 0.9rem;
+        &:hover{
+            border: 1px solid white;
+            padding:5px;
+        }
+
+        i {
+            margin-left: 5px;
+        }
+    }
+
+    .top-bar-ad {
+        img {
+            min-height: 20px;
+            max-height: 30px;
+        }
+    }
+}
+
+.results-bar {
+    padding: 10px 0;
+    border-bottom: 1px solid $border-color;
+
+    p {
+        margin-bottom: 0;
+        font-size: 0.9rem;
+        .water-bottle{
+            color:$secondary-color;
+        }
+    }
+
+    .dropdown {
+        .btn {
+            background-color: $dropdown-background;
+            color: $dropdown-text;
+            border: 1px solid $border-color;
+            font-size: 0.9rem;
+        }
+
+        .dropdown-menu {
+            font-size: 0.9rem;
+        }
+    }
+}

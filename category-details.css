@@ -1,0 +1,17 @@
+.category-details {
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+.category-details h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.category-details ul li {
+  padding: 5px 0 0px 10px;
+  cursor: pointer;
+}
+.category-details ul li:hover {
+  background-color: #f0f0f0;
+}
+
+/*# sourceMappingURL=category-details.css.map */

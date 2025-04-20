@@ -1,0 +1,64 @@
+
+@import 'variables'; // Import variables
+
+// Results Styles (Product Cards)
+.results {
+    padding: 20px;
+
+    .results-header {
+        margin-bottom: 20px;
+    }
+
+    .card {
+        border: 1px solid $border-color;
+        border-radius: 5px;
+        overflow: hidden;
+        min-height: 500px;
+        height: auto;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        .card-img-top {
+            height: 250px;
+            object-fit: contain;
+        }
+
+        .card-body {
+            text-align: left;
+
+            .discount {
+                color: $secondary-color;
+                font-size: 0.8rem;
+            }
+        }
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+    }
+}
+
+.price-range {
+    margin-bottom: 20px;
+
+    .form-control-ranges {
+        width: 60%;
+    }
+
+    .price-display {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+}
+
+.dropdown-item {
+    color: $text-color;
+    background-color: $background-color;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: $dropdown-hover-background;
+    color: $text-color;
+}

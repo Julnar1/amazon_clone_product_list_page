@@ -1,0 +1,16 @@
+// Base Styles
+body {
+    font-family: sans-serif;
+}
+
+// Responsive Grid Adjustments using Bootstrap classes
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class*="col-"] { // Apply padding and margin to all col classes
+    padding: 0 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,54 @@
+.results {
+  padding: 20px;
+}
+.results .results-header {
+  margin-bottom: 20px;
+}
+.results .card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  min-height: 500px;
+  height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.results .card .card-img-top {
+  height: 250px;
+  object-fit: contain;
+}
+.results .card .card-body {
+  text-align: left;
+}
+.results .card .card-body .discount {
+  color: #0298a6;
+  font-size: 0.8rem;
+}
+.results .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.price-range {
+  margin-bottom: 20px;
+}
+.price-range .form-control-ranges {
+  width: 60%;
+}
+.price-range .price-display {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.dropdown-item {
+  color: #333;
+  background-color: #fff;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/*# sourceMappingURL=product-cards.css.map */

@@ -1,0 +1,45 @@
+.top-bar {
+  background-color: #232f3e;
+  color: white;
+  padding: 8px 0;
+}
+.top-bar .top-bar-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 0.9rem;
+}
+.top-bar .top-bar-link:hover {
+  border: 1px solid white;
+  padding: 5px;
+}
+.top-bar .top-bar-link i {
+  margin-left: 5px;
+}
+.top-bar .top-bar-ad img {
+  min-height: 20px;
+  max-height: 30px;
+}
+
+.results-bar {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+.results-bar p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+.results-bar p .water-bottle {
+  color: #037883;
+}
+.results-bar .dropdown .btn {
+  background-color: #232f3e;
+  color: #fdfdfd;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+.results-bar .dropdown .dropdown-menu {
+  font-size: 0.9rem;
+}
+
+/*# sourceMappingURL=top-bar.css.map */
