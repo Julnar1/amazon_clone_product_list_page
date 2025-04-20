@@ -69,4 +69,4 @@ Feel free to submit issues and enhancement requests.
 
 ## License
 
-© 2023 Julnar Nabeel. All rights reserved.
+© 2025 Julnar Nabeel. All rights reserved.
