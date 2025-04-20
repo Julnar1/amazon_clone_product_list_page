@@ -2,6 +2,8 @@
 
 A responsive UI clone of Amazon's product list page built with HTML, CSS, and minimal JavaScript. This project focuses on recreating the visual design and layout of Amazon's product listing page, with basic interactivity for demonstration purposes.
 
+![Amazon Clone Preview](./images/amazon_clone_preview.png)
+
 ## Project Overview
 
 This is primarily a frontend UI project that demonstrates my ability to:
@@ -20,11 +22,6 @@ This is primarily a frontend UI project that demonstrates my ability to:
 - Product cards with images, prices, and ratings
 - Basic "Add to Cart" functionality with notifications
 
-## 🚀 Live Demo
-
-[View Live Demo](https://amazon-clone-product-list-page.vercel.app/)
-
-The application is deployed on Vercel and automatically updates with each push to the main branch.
 
 ## Technologies Used
 
